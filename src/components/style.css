@@ -1,0 +1,59 @@
+.questions_c {
+    width: 60%;
+    margin: 20px 0 0 0;
+}
+
+.message_c {
+    border:1px dashed #ccc;
+    outline: none;
+}
+.questions_c .h3_c {
+    font-weight: 600;
+    margin-top: 8px;
+    font-size: 16px!important;
+    text-align: left;
+}
+
+.questions_c {
+    width: 60%;
+    margin: 20px 0 0 0;
+}
+
+.h4_c {
+    font-size: 12px;
+    font-weight: 200;
+    color: #000!important;
+}
+
+.h3_it_c {
+    font-size: 14px!important;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.changebtn_c {
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+.inputs_c {
+    color: #000!important;
+    color: #fff;
+    border: none;
+}
+
+.border_c {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.changebtn_c {
+    width: 50px;
+    height: 30px;
+    background: #3366ff;
+}

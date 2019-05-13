@@ -1,0 +1,123 @@
+.right_s{
+    // flex:1;
+    width: 1150px;
+    height: 1000px;
+    padding:10px 32px 0 20px;
+    display: flex;
+    flex-direction: column;
+        position: relative;
+
+    .createTit{
+        // width:80px;
+        height:28px;
+        font-size:20px;
+        font-family:PingFangSC-Medium;
+        font-weight:500;
+        color:rgba(0,0,0,0.85);
+        line-height:28px;
+    }
+    .content_s{
+        width:100%;
+        height:917px;
+        background:rgba(255,255,255,1);
+        border-radius:2px;
+        display: flex;
+        flex-direction: column;
+        .form_s{
+            width: 100%;
+            height: 100%;
+            padding: 81px 0 0 54px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            .examName_s{
+                width: 100%;
+                height:32px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 30px;
+                .exams_name_s{
+                    margin-right: 10px;
+                }
+                .inpName_s{
+                    width:468px;
+                    height: 32px;
+                    padding-left:15px;
+                    box-sizing: border-box;
+                    outline: 0;border:1px solid rgba(0,0,0,0.35);
+
+                }
+
+            }
+            .examTime_s,.examExam_length_s{
+                 width: 100%;
+                height:35px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 50px;
+                .exams_time_s,.examExam_len_s{
+                    margin-right: 10px;
+                }
+                .inpExam_len{
+                    border:0;
+                    outline: 0;
+                }
+                form{
+                    width:294px;
+                    height:32px;
+                    background:rgba(255,255,255,1);
+                    border-radius:4px;
+                }
+                .ant-calendar-picker-input,.ant-input{
+                    width:294px;
+                    height:32px;
+                     padding-left:15px;
+                    box-sizing: border-box;
+                    color:rgba(0,0,0,0.25);
+                }
+                .ant-select-selection__placeholder, .ant-select-search__field__placeholder{
+                color:rgba(0,0,0,0.55)!important;
+
+                }
+                .ant-select-selection{
+
+                    border:1px solid rgba(0,0,0,0.35)!important;
+                    border-radius: 0;
+
+                }
+            }
+                
+        }
+    }
+    .btn_reset_create{
+        width: 100%;
+        height: 40px;
+        position: absolute;
+        bottom: 265px;
+        margin-left:52px;
+        box-sizing: border-box;
+        button{
+            width: 120px;
+            height: 40px;
+            border-radius:4px;
+            color:#fff;
+            text-align: center;
+            line-height: 40px;
+            border:0;
+            outline: 0;
+            margin-right:35px;
+        }
+        .create_s{
+            background:linear-gradient(270deg,rgba(78,117,255,1) 0%,rgba(1,57,253,1) 100%);
+        }
+    }
+}
+.ant-select-arrow{
+    color:#000;
+}
+.right_s .content_s .form_s .examTime_s .ant-calendar-picker-input, .right_s .content_s .form_s .examTime_s .ant-input, .right_s .content_s .form_s .examExam_{
+                    border:1px solid rgba(0,0,0,0.35)!important;
+
+}

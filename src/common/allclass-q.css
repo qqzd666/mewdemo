@@ -1,0 +1,15 @@
+.allpage-q{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.allpage-q>p{
+    width: 34%;
+    line-height: 40px;
+    background: #1890FF;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}

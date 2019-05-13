@@ -1,0 +1,26 @@
+.checkPaper_box_s{
+    // width: 1150px;
+    height: 1000px;
+    padding:10px 32px 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    .createTit_s{
+         width:100%;
+        height:28px;
+        font-size:20px;
+        font-family:PingFangSC-Medium;
+        font-weight:500;
+        color:rgba(0,0,0,0.85);
+        line-height:28px;
+        // padding: 0 20px;
+        // box-sizing: border-box;
+    }
+    .bg_s{
+        width:100%;
+        height: 20px;
+        background: #f0f2f5;
+    }
+   
+   
+}
